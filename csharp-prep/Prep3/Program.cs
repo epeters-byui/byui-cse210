@@ -8,8 +8,8 @@ class Program
         int magicNumber = random.Next(1, 101);
 
        // For part 1 and 2 user call fro number..
-       // Console.Write("What is the magic number? ");
-        //int userNumber = int.Parse(Console.ReadLine());
+        Console.Write("What is the magic number? ");
+        int userNumber = int.Parse(Console.ReadLine());
 
         if (userNumber < magicNumber)
         {
